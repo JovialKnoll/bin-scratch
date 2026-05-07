@@ -17,5 +17,4 @@ function upa() {
     echo '    # uncomment if retroarch is installed
     #flatpak update --user org.libretro.RetroArch;
 }' >> ~/.bashrc
-    echo '}' >> ~/.bashrc
 fi
