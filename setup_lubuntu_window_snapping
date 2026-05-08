@@ -11,6 +11,6 @@ else
     sed -i -e "/<\/keyboard>/r rc_replacement.txt" -e "s///" ~/.config/openbox/rc.xml
     openbox --reconfigure
     echo
-    echo 'Turn off "Super_L" in Menu > Preferences > LXQt settings > Shortcut Keys'
+    echo 'Turn off "Super_L" in Menu > LXQt settings > Shortcut Keys'
     echo
 fi
